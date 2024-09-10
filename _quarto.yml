@@ -1,0 +1,48 @@
+project:
+  type: website
+  
+
+website:
+  #title: "SixSigma"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: index.qmd
+      - section: "Assignments"
+        contents:
+          - SSBBA_W2.ipynb
+          - SSBBA_W3.ipynb
+          - SSBBA_W4.ipynb
+      - section: "Examinations"
+        contents:
+          - ISI_SSBB_BA_PE_CODE.ipynb
+          - ISI_SSBB_BA_FinalExam_Code_2024.ipynb
+      - section: "Project Report"
+        contents:
+          - ISI_SSBBA_Book.qmd
+          # - custom-theme.qmd
+      # - acknowlegment.qmd
+  page-footer: 
+    left: "Copyright 2024, Mallesham Yamulla" 
+
+    right: 
+      - icon: github
+        href: https://github.com/ciencia-datos
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/mallesham-yamulla-2948b732/
+      - icon: stack-overflow
+        href: https://stackoverflow.com/users/9479925/myamulla-ciencia
+      - icon: book
+        href: https://www.isihyd.ac.in
+      
+
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+
+
+
